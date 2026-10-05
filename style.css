@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eeeeee;
+    color: #333333;
+    font-family: "Microsoft YaHei", "SimSun", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.top-bar {
+    background: #e51c23;
+    border-bottom: 4px solid #bd1017;
+    height: 70px;
+}
+
+.header {
+    height: 70px;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.logo {
+    background: #171717;
+    border: 2px solid #ffffff;
+    display: block;
+    float: left;
+    height: 54px;
+    margin-top: 6px;
+    overflow: hidden;
+    width: 54px;
+}
+
+.logo img {
+    border: 0;
+    display: block;
+    height: 54px;
+    width: 54px;
+}
+
+.navigation {
+    float: right;
+    height: 70px;
+}
+
+.nav-button {
+    color: #ffffff;
+    display: block;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 28px;
+    text-decoration: none;
+}
+
+.nav-button:hover,
+.nav-button.active {
+    background: #bd1017;
+}
+
+.page {
+    margin: 28px auto 36px;
+    width: 960px;
+}
+
+.intro {
+    background: #ffffff;
+    border-left: 5px solid #e51c23;
+    margin-bottom: 28px;
+    padding: 20px 24px;
+}
+
+.intro p {
+    font-size: 17px;
+}
+
+.rules,
+.download-panel {
+    background: #ffffff;
+    padding: 28px 34px;
+}
+
+.rules h1,
+.download-panel h1 {
+    border-bottom: 2px solid #e51c23;
+    color: #222222;
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 18px;
+    padding-bottom: 10px;
+}
+
+.rules p {
+    margin-bottom: 12px;
+}
+
+.rules ol {
+    list-style-position: outside;
+    margin-left: 30px;
+}
+
+.rules li {
+    margin-bottom: 8px;
+    padding-left: 4px;
+}
+
+.download-page {
+    min-height: 280px;
+}
+
+.download-panel {
+    margin-top: 10px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.download-link {
+    background: #f5f5f5;
+    border: 1px solid #dddddd;
+    margin: 18px 0 8px;
+    overflow: hidden;
+    padding: 12px;
+    word-wrap: break-word;
+}
+
+.download-link a {
+    color: #c8141b;
+}
+
+.download-password {
+    color: #666666;
+}
+
+.footer {
+    background: #111111;
+    color: #cccccc;
+    padding: 25px 0;
+}
+
+.footer-content {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.footer p {
+    line-height: 2;
+}
+
+@media screen and (max-width: 980px) {
+    .header,
+    .page,
+    .footer-content {
+        width: 94%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .rules,
+    .download-panel {
+        padding: 22px 18px;
+    }
+
+    .nav-button {
+        padding: 0 16px;
+    }
+
+    .download-link {
+        word-wrap: break-word;
+    }
+}
